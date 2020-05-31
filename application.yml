@@ -3,7 +3,7 @@
 ###Pour MariaDb uniquement : ne fonctionne pas pour MySql
 spring:
   datasource:
-    url: jdbc:mariadb://localhost:3306/sample2?createDatabaseIfNotExist=true
+    url: jdbc:mariadb://localhost:3306/rentDB?createDatabaseIfNotExist=true
     username: coucou
     password: coucou
     driver-class-name: org.mariadb.jdbc.Driver
