@@ -1,0 +1,13 @@
+
+# Connexion à la base de données
+###Pour MariaDb uniquement : ne fonctionne pas pour MySql
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/sample2?createDatabaseIfNotExist=true
+    username: coucou
+    password: coucou
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
